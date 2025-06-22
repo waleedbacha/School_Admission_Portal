@@ -36,3 +36,32 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* Container styling */
+form {
+  background: #f9f9ff;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Label styling */
+form .form-label {
+  font-weight: 600;
+  color: #4a4a4a;
+}
+
+/* Input field styling */
+form .form-control {
+  border-color: #6c63ff;
+  border-radius: 8px;
+}
+
+/* Submit button styling */
+form .btn {
+  background-color: #6c63ff;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 8px;
+}
